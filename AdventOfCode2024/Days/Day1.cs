@@ -3,7 +3,7 @@
 public static class Day1
 {
     public static string solve(){
-        StreamReader reader = new StreamReader("../../../inputs/Day1.txt");
+        StreamReader reader = new StreamReader("../../../inputs/Day2.txt");
         string? line = reader.ReadLine();
 
         List<int> left = new List<int>();
