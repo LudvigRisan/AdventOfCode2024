@@ -3,4 +3,4 @@
 using AdventOfCode2024;
 
 
-Console.WriteLine(Day4_2.solve());
+Console.WriteLine(Day5.solve());
