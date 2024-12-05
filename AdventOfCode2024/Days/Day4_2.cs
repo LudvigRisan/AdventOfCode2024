@@ -19,7 +19,7 @@ public class Day4_2
                 }
             }
         }
-        return mCount == 2 && sCount == 2;
+        return mCount == 2 && sCount == 2 && input[yPos + 1][xPos + 1] != input[yPos - 1][xPos - 1];
     }
 
     static void addPrint(int yPos, int xPos){
